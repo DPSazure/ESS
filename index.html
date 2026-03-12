@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЕСС Нижегородской области | О нас</title>
+    <!-- Подключаем шрифт Inter и иконки Font Awesome -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Дисклеймер (модальное окно) -->
+    <div id="disclaimer-modal" class="modal">
+        <div class="modal-content">
+            <h3><i class="fas fa-info-circle"></i> Информация о сайте</h3>
+            <p>Данный сайт создан игроком <strong>Tim_Breadford</strong> по личной инициативе.</p>
+            <p>Я не претендую на права на контент, принадлежащий <strong>Amazing Online</strong>. Все материалы используются в образовательных целях и не для коммерческого использования.</p>
+            <p>Если у вас есть вопросы или предложения, свяжитесь со мной через форум.</p>
+            <button id="accept-disclaimer" class="btn">Понятно, закрыть</button>
+        </div>
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1><i class="fas fa-shield-alt"></i> ЕСС</h1>
+                <span>Нижегородская область</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> О нас</a></li>
+                    <li><a href="mchs.html"><i class="fas fa-fire-extinguisher"></i> МЧС</a></li>
+                    <li><a href="smp.html"><i class="fas fa-ambulance"></i> СМП</a></li>
+                    <li><a href="zapis.html"><i class="fas fa-calendar-check"></i> Запись</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero-секция с изображением (локальный путь) -->
+    <div class="hero">
+        <img src="images/proxy (1).png" alt="Современные технологии спасения">
+    </div>
+
+    <main class="container">
+        <!-- Краткая миссия -->
+        <h2><i class="fas fa-info-circle"></i> О Единой службе спасения</h2>
+        <div class="mission">
+            <i class="fas fa-quote-left" style="font-size: 1.8rem; color: #3b82f6; margin-right: 0.8rem;"></i>
+            ЕСС объединяет спасателей, медиков и специалистов дневного стационара, чтобы обеспечить быструю и качественную помощь каждому жителю области.
+        </div>
+
+        <!-- Крупная кнопка записи к врачу -->
+        <div style="text-align: center; margin: 2rem 0 1rem;">
+            <a href="zapis.html" class="btn btn-large" style="font-size: 1.2rem; padding: 1rem 3rem; background-color: #2563eb; border-radius: 50px;">
+                <i class="fas fa-calendar-check" style="margin-right: 0.5rem;"></i>Записаться к врачу
+            </a>
+            <p style="margin-top: 0.5rem; color: #64748b; font-size: 0.9rem;">Приём ведётся ежедневно, включая выходные</p>
+        </div>
+
+        <!-- Карточки подразделений -->
+        <h3 style="font-size: 1.5rem; font-weight: 500; margin: 2.5rem 0 1.2rem; color: #0f172a;">Наши подразделения</h3>
+        <div class="grid">
+            <div class="grid-item">
+                <i class="fas fa-fire-extinguisher"></i>
+                <h3>МЧС</h3>
+                <p>Пожарные и спасатели. Ликвидация пожаров, ДТП, техногенных аварий. Круглосуточные дежурства.</p>
+                <a href="mchs.html" class="btn">Подробнее</a>
+            </div>
+            <div class="grid-item">
+                <i class="fas fa-ambulance"></i>
+                <h3>СМП</h3>
+                <p>Скорая медицинская помощь. Экстренные вызовы, транспортировка, неотложная помощь на месте.</p>
+                <a href="smp.html" class="btn">Подробнее</a>
+            </div>
+            <div class="grid-item">
+                <i class="fas fa-hospital-user"></i>
+                <h3>ОДП</h3>
+                <p>Отдел дневного пребывания. Приём пациентов, работа в стационарах, реабилитация и уход.</p>
+                <a href="zapis.html" class="btn">Записаться</a>
+            </div>
+        </div>
+
+        <!-- Блок вакансий и интернатуры (обновлённый текст) -->
+        <div style="background-color: #f9fcff; border-radius: 28px; padding: 2rem; margin: 2.5rem 0; border: 1px solid #eef3f8;">
+            <h3 style="display: flex; align-items: center; gap: 0.6rem; font-size: 1.5rem; font-weight: 500; color: #0f172a; margin-bottom: 1.2rem;">
+                <i class="fas fa-briefcase" style="color: #3b82f6;"></i> Карьера в ЕСС
+            </h3>
+            <p style="margin-bottom: 1rem; color: #334155; font-size: 1rem;">Мы всегда открыты для новых сотрудников! Ведётся набор на службу в органы чрезвычайных ситуаций, а также в интернатуру для медицинских специалистов.</p>
+            <p style="margin-bottom: 0.8rem; color: #334155;"><i class="fas fa-map-pin" style="color: #3b82f6; width: 24px;"></i> <strong>Собеседования проходят ежедневно</strong> возле стойки регистрации в главном корпусе (г. Южный, ул. Нанотехнологическая, 1).</p>
+            <p style="margin-bottom: 0.8rem; color: #334155;"><i class="fas fa-clock" style="color: #3b82f6; width: 24px;"></i> Длительность собеседования — около 20 минут, время проведения — рандомное в течение дня.</p>
+            <p style="color: #334155;"><i class="fas fa-question-circle" style="color: #3b82f6; width: 24px;"></i> Дополнительная информация — по телефону 112 или на стойке регистрации.</p>
+        </div>
+
+        <!-- Контактная информация -->
+        <div class="contact-block">
+            <h3><i class="fas fa-phone-alt"></i> Контакты</h3>
+            <p><i class="fas fa-map-marker-alt"></i> г. Южный, ул. Нанотехнологическая, 1</p>
+            <p><i class="fas fa-phone"></i> Единый номер: 112 (круглосуточно)</p>
+            <p><i class="fas fa-envelope"></i> ess.nnov@emergency.ru</p>
+            <p><i class="fas fa-clock"></i> Часы работы: 24/7, без выходных</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Единая служба спасения Нижегородской области. Все права принадлежат <strong>Amazing Online</strong>. Используется с разрешения.</p>
+            <p>Сайт разработан для служебного пользования.</p>
+        </div>
+    </footer>
+
+    <!-- Скрипт для управления дисклеймером -->
+    <script>
+        (function() {
+            // Проверяем, был ли уже показан дисклеймер (используем localStorage)
+            if (localStorage.getItem('disclaimerShown') !== 'true') {
+                document.getElementById('disclaimer-modal').style.display = 'flex';
+            }
+
+            document.getElementById('accept-disclaimer').addEventListener('click', function() {
+                document.getElementById('disclaimer-modal').style.display = 'none';
+                localStorage.setItem('disclaimerShown', 'true');
+            });
+        })();
+    </script>
+</body>
+</html>
